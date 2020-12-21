@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.bindir        = 'exe'
   s.executables   = s.files.grep(%r{^exe/}){|f| File.basename(f)}
   s.require_paths = ["lib"]
-  s.extensions    = ['ext/Rakefile']
+  # s.extensions    = ['ext/Rakefile']
 
   s.add_dependency 'rubyzip'
   s.add_dependency "rake"
